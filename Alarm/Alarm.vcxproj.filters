@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Misc Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>xml;json;txt;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tasks">
+      <UniqueIdentifier>{6ab77ef2-e6a6-4a6e-9642-914d1e07f184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\PirControlTask">
+      <UniqueIdentifier>{66dff496-6bb2-4522-a2fe-00e8f7acf26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\SendMessageTask">
+      <UniqueIdentifier>{babc0c4a-1479-4a03-a8d7-b4c2d2f475ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{abc4ceaf-f720-4e11-b659-43e6230afc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\PirSensor">
+      <UniqueIdentifier>{976681bd-d82e-4b1b-ba5d-20c2dad9cbe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\SDCard">
+      <UniqueIdentifier>{d636014d-9656-412a-8c7e-7284ea08732c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tasks\CheckIDTask">
+      <UniqueIdentifier>{89cb8d9a-8287-4020-9b89-d3bf6ff1ccf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlarmCore">
+      <UniqueIdentifier>{061c632e-330b-4532-9c7c-45b3149cbeb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{0dddee16-5e3f-412c-9f84-299a5352bde4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlarmApp">
+      <UniqueIdentifier>{6bb239a5-a5b5-4074-af43-8690a922508c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{0f361356-5044-4b24-be48-6324cab12101}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Alarm.ino" />
+    <None Include="src\arduino folders read me.txt">
+      <Filter>Misc Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.Alarm.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PirSensor.h">
+      <Filter>Modules\PirSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="PirControlTask.h">
+      <Filter>Tasks\PirControlTask</Filter>
+    </ClInclude>
+    <ClInclude Include="SendMessageTask.h">
+      <Filter>Tasks\SendMessageTask</Filter>
+    </ClInclude>
+    <ClInclude Include="SDManager.h">
+      <Filter>Modules\SDCard</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckIDTask.h">
+      <Filter>Tasks\CheckIDTask</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmCore.h">
+      <Filter>AlarmCore</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="AppAlarm.h">
+      <Filter>AlarmApp</Filter>
+    </ClInclude>
+    <ClInclude Include="AList.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="PrioritySortedAList.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PirSensor.cpp">
+      <Filter>Modules\PirSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="PirControlTask.cpp">
+      <Filter>Tasks\PirControlTask</Filter>
+    </ClCompile>
+    <ClCompile Include="SendMessageTask.cpp">
+      <Filter>Tasks\SendMessageTask</Filter>
+    </ClCompile>
+    <ClCompile Include="SDManager.cpp">
+      <Filter>Modules\SDCard</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckIDTask.cpp">
+      <Filter>Tasks\CheckIDTask</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmCore.cpp">
+      <Filter>AlarmCore</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="AppAlarm.cpp">
+      <Filter>AlarmApp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
